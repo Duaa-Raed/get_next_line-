@@ -58,3 +58,10 @@ char	*ft_strjoin(char *s1, char const *s2)
 	free(s1);
 	return (string);
 }
+
+char	*ft_free_both(char *a, char *b)
+{
+	free(a);
+	free(b);
+	return (NULL);
+}

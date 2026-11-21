@@ -12,5 +12,6 @@ char	*get_next_line(int fd);
 size_t	ft_strlen(const char *c);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strjoin(char *s1, char const *s2);
+char	*ft_free_both(char *a, char *b);
 
 #endif
